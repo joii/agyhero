@@ -1,5 +1,10 @@
 @extends('frontend.main_master')
 @section('main')
+
+@section('title')
+HOME | AGYHERO | THE NURSING HOME EXPERT
+@endsection
+
 <!-- slider-area -->
 @include('frontend.home_all.home_slide')
 <!-- slider-area-end -->

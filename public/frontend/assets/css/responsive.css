@@ -76,6 +76,9 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (max-width: 1199.98px) {
+.navbar-wrap ul li a {
+	padding: 21px 15px;
+}
 .lang-sub-menu {
 	left: auto;
 	right: 0px;
@@ -98,7 +101,7 @@
 	padding-right: 35px;
 }
 .section-title .title {
-	font-size: 35px;
+	font-size: 30px;
 	letter-spacing: -1px;
 }
 .about-cat-item {
@@ -133,6 +136,7 @@
 .testimonial-area.gray-bg {
 	padding: 110px 0;
 }
+
 .blog-post-item.bp-style-one {
 	display: block;
 }
@@ -397,6 +401,9 @@
 }
 .menu-area .mobile-nav-toggler {
 	display: block;
+}
+.navbar-wrap ul li a {
+    padding: 21px 15px;
 }
 .slider-content h2 {
 	font-size: 140px;
@@ -697,8 +704,11 @@
 .menu-area .mobile-nav-toggler {
 	margin-top: 7px;
 }
+.navbar-wrap ul li a {
+    padding: 21px 15px;
+}
 .slider-bg {
-	min-height: 500px;
+	min-height: 320px;
 }
 .slider-content h2 {
 	font-size: 85px;
@@ -714,7 +724,7 @@
 	margin: 0 0px 20px 0px;
 }
 .section-title .title {
-	font-size: 35px;
+	font-size: 30px;
 }
 .skill-overlay-img {
 	width: 90%;
@@ -1066,6 +1076,18 @@
 	margin-bottom: 20px;
 }
 
+.market-bg{
+	background-image: none;
+	background-color: #f9f9f9;
+	padding: 0 40px;
+}
+
+.brand-vision-bg{
+	background-image: none;
+	background-color: #f9f9f9;
+	padding: 0 40px;
+}
+
 }
 
 
@@ -1091,7 +1113,7 @@
 	padding: 40px 50px;
 }
 .section-title .title {
-	font-size: 30px;
+	font-size: 28px;
 }
 .banner-bg {
 	padding-top: 255px;
@@ -1204,6 +1226,354 @@
 	padding: 40px 30px;
 }
 
+.news-area {
+	position: relative;
+    padding: 20px;
 }
+
+}
+
+/* media screen */
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+     body{
+        background-size: 100% 260px;
+        
+     }
+
+     .slider-bg {
+        background-size:contain;
+        background-position: top center;
+        padding: 0;
+        
+    }
+    .slider-area{
+        height: 300px;
+      
+    }
+
+    .slide1{
+        background-image: url('../img/slider/mobile-1.jpg') ;
+    }
+
+    .slide2{
+        background-image: url('../img/slider/mobile-2.jpg') ;
+    }
+
+    .slide3{
+        background-image: url('../img/slider/mobile-3.jpg') ;
+    }
+
+    .slide4{
+        background-image: url('../img/slider/mobile-4.jpg') ;
+    }
+
+  
+    
+    .slider-content{
+        padding-top: 0px;
+    }
+
+    .why-us {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .why-us-icon{
+        height: 45px;
+        width: auto;
+        margin-right: 15px;
+    }
+
+    .why-us-content{
+        padding-left: 40px;
+    }
+    .why-us-bg-1,
+    .why-us-bg-2,
+    .why-us-bg-3,
+    .why-us-bg-4{
+        background-color: #f9f9f9;
+    }
+    .location-item-list-right {
+        margin-top: 0;
+    } 
+    
+
+     .technology-lead-photo{
+        width:100%;
+    }
+
+    .training-center-bg{
+        background: #002E69;
+        background-image:none;
+        background-repeat: no-repeat;
+        background-size:inherit;
+        background-position: right center;
+        
+    }
+
+    .partner-item{
+        /* width:33.3333%; */
+       /* border: 1px dotted #000;*/
+        color:#000;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .partner-item img{
+        width: 95%;
+    }
+
+    .breadcrumb-bg{
+        height: 100%;
+    
+    }
+
+
+    .breadcrumb-content {
+      background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    
+
+    
+ }
+/* Medium devices (tablets, 768px and up)*/
+
+@media (max-width: 768px) { 
+    body{
+        background-size: 100% 260px;
+     }
+
+     .slider-bg {
+        background-size:contain;
+        background-position: top center;
+        padding: 0;
+        
+    }
+
+	.slider-area{
+        height: 300px;
+      
+    }
+   
+    .slide1{
+        background-image: url('../img/slider/mobile-1.jpg') ;
+    }
+
+    .slide2{
+        background-image: url('../img/slider/mobile-2.jpg') ;
+    }
+
+    .slide3{
+        background-image: url('../img/slider/mobile-3.jpg') ;
+    }
+
+    .slide4{
+        background-image: url('../img/slider/mobile-4.jpg') ;
+    }
+
+    
+    .slider-content{
+        padding-top: 0px;
+    }
+
+    .slider-content h4{
+        font-size: 30px;
+    }
+
+    .why-us {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .why-us-icon{
+        height: 35px;
+        width: auto;
+        margin-right: 10px;
+    }
+
+    .why-us-content{
+        padding-left: 40px;
+        
+       }
+    .why-us-bg-1,
+    .why-us-bg-2,
+    .why-us-bg-3,
+    .why-us-bg-4{
+        background-color: #f9f9f9;
+        background-image: none;
+        min-height: unset;
+    }
+
+    .location-item-list-right {
+        margin-top: 0;
+    } 
+    
+    
+     .technology-lead-photo{
+        width:100%;
+    }
+
+
+
+    .training-center-bg{
+        background: #002E69;
+        background-image:none;
+        background-repeat: no-repeat;
+        background-size:inherit;
+        background-position: right center;
+        
+    }
+
+    .partner-item{
+        /* width:25%; */
+       /* border: 1px dotted #000;*/
+        color:#000;
+        padding: 15px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .partner-item img{
+        /* width: 85%; */
+    }
+
+    .brand-concept-bg{
+        width: 100%;
+        background: none;
+        position: relative;
+      }
+
+     .concept-dignity-area,
+     .concept-dignity-area h2{
+        color:#002e69;
+        text-align: center;
+     }
+
+     .concept-body-area h2{
+        text-align: center;
+     }
+
+     .service-bg{
+        background-color: #ffffff;
+     }
+
+     .product-item{
+        min-height:fit-content !important;
+    }
+
+	.news-area {
+		padding: 20px;
+	}
+
+    .breadcrumb-bg{
+        height: 100%;
+    
+    }
+
+
+    .breadcrumb-content {
+      background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+  
+    .social-row {
+        justify-content: center; 
+        padding-bottom: 10px;
+    }
+
+    .slide-header{
+        background-color: rgba(255, 255, 255, 1);
+        display: inline;
+    }
+
+    .slider-content  > h4{
+        font-size: 28px !important;
+    }
+
+    .slider-content  > h3{
+        font-size: 30px !important;
+    }
+
+    .slider-content .text-white{
+     color:#0a174c !important;
+    }
+
+    
+    .social-block,
+    .social-block2{
+        min-width:45px;
+        width:45px;
+    }
+
+    .social-block a,
+    .social-block2 a{
+    
+        float: none;
+    }
+    
+    
+
+   
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .partner-item{
+        /* width:15%; */
+       /* border: 1px dotted #000;*/
+        color:#000;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .partner-item img{
+       
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .partner-item{
+        /* width:12%; */
+       /* border: 1px dotted #000;*/
+        color:#000;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .partner-item img{
+    
+    }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+	.partner-item{
+    /* width:12%; */
+   /* border: 1px dotted #000;*/
+    color:#000;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.partner-item img{
+   
+} 
+}
+
+@media (max-width: 1500px)
+.slider-content h3 {
+    font-size: 40px;
+}
+
 
 

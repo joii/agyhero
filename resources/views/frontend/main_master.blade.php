@@ -6,10 +6,12 @@
         <title>@yield('title')</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+        <meta name="keywords" content="ดูแลผู้สูงอายุ,ดูแลผู้ป่วย,ศูนย์ดูแลผู้สูงอายุ,ดูแลคนชรา,ศูนย์ดูแลผู้ป่วย"/>
+        <meta name="description" content="เริ่มธุรกิจก่อนใคร สร้างโอกาสการเป็นผู้นำตลาด และผลกำไร โดยเข้าร่วมกับเรา ผู้เชียวชาญด้านธุรกิจ Nursing Home ที่มีประสบการณ์กว่า 20 ปี ที่จะช่วยพัฒนาพื้นที่ของคุณให้สามารถสร้างมูลค่าทางธุรกิจที่ยั่งยืน">
+        <link rel=”canonical” href=”http://agyhero.com” /> 
+		<link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/assets/img/favicon.ico')}}">
         <!-- Place favicon.ico in the root directory -->
-
+      
         <!-- Google Font-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

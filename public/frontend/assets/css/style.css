@@ -338,6 +338,10 @@ strong{
 	background: #9134AF;
 }
 
+.slide-header{
+    background: none;
+}
+
 
 
 
@@ -384,7 +388,7 @@ strong{
     font-weight: 700;
     text-transform: uppercase;
     color: #ffffff;
-    padding: 21px 40px;
+    padding: 21px 30px;
     display: block;
     line-height: 1;
     position: relative;
@@ -421,7 +425,7 @@ strong{
 }
 .header-action > ul > li {
 	position: relative;
-	margin-left: 20px;
+	margin-left: 10px;
 }
 .header-action ul li:first-child {
 	margin-left: 0;
@@ -1145,10 +1149,10 @@ strong{
 .slider-bg {
     background-size:contain;
     background-repeat: no-repeat;
-    background-position: center;
-    min-height: 750px;
+    background-position: right;
+    /* min-height: 750px; */
     padding: 80px 0;
-}
+} 
 
 .slider-content{
     padding-top: 0px;
@@ -1172,6 +1176,9 @@ strong{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.slider-content h4{
+    font-size: 36px;
 }
 .slider-active .slick-dots {
     position: absolute;
@@ -1549,6 +1556,7 @@ strong{
 }
 
 /* Our Brand*/
+
 .brand-vision-bg{
     min-height: 320px;
     background-image: url('../img/our-brand/bg-vision.png');
@@ -1658,6 +1666,16 @@ strong{
 .product-color-3{
     background-color: #BAC1BE;
 }
+
+.product-color-0{
+    background-color: #002e69;
+}
+
+.product-color-4{
+    background-color: #9134af;
+}
+
+
 
 .strength-bg{
     background: #f9f9f9;
@@ -1875,6 +1893,23 @@ margin-left: 55px;
 
 /* Services */
 /* On Homepage */
+
+.slide1{
+    background-image: url('../img/slider/banner-1.png') ;
+}
+
+.slide2{
+    background-image: url('../img/slider/banner-2.png') ;
+}
+
+.slide3{
+    background-image: url('../img/slider/banner-3.png') ;
+}
+
+.slide4{
+    background-image: url('../img/slider/banner-4.png') ;
+}
+
 .services-area{
     background-color: #F2F2F2;
 }
@@ -2261,7 +2296,7 @@ p.partner-title{
 
 .iomt-photo{
     min-height: 340px;
-    background-image: url('../img/home/Internet-of-Medical-things.jpg');
+    background-image: url('../img/home/profit-technology.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -2282,7 +2317,60 @@ p.partner-title{
     background-position: left;
 }
 
+.device-box{
+    background: #f9f9f9;
+    padding: 30px;
+    min-height: 340px;
+}
 
+.smart-device-bg{
+    min-height: 320px;
+    background-image: url('../img/home/more-smart-device-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.intelligent-box ul {
+    /* columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2; */
+    clear: both;
+}
+
+.intelligent-box li{
+    padding:2px;
+}
+
+.intelligent-box ul>li:first-child {
+    width:70px;
+    float: left;
+  }
+
+.academy-bg{
+    min-height: 320px;
+    background-image: url('../img/home/more-academy-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+
+.telemed-bg-1{
+    min-height: 320px;
+    background-image: url('../img/home/more-telemed-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.telemed-bg-2{
+    min-height: 320px;
+    background-image: url('../img/home/more-telemed-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 
 
@@ -2291,6 +2379,11 @@ p.partner-title{
     .nursing-home-area .section-title .title-paragraph {
         padding: 0px;
     }
+
+    .telemed-bg-2{
+        background:transparent;
+    }
+    
 }
 
 
@@ -2328,6 +2421,7 @@ p.partner-title{
 .technology-lead-photo{
     width:auto;
 }
+
 
 
 /* Training-center */
@@ -2381,6 +2475,7 @@ p.partner-title{
 
 
 /* Blog */
+
 .blog-post-item.bp-style-one {
     display: flex;
     align-items: center;
@@ -2393,9 +2488,7 @@ p.partner-title{
     -ms-flex: 0 0 46.8%;
     flex: 0 0 46.8%;
 }
-.blog-post-thumb img {
-	max-width: 100%;
-}
+
 .overlay-post-date {
     position: absolute;
     width: 55px;
@@ -2525,7 +2618,7 @@ p.partner-title{
 }
 
 .partner-item{
-    width:12%;
+   
    /* border: 1px dotted #000;*/
     color:#000;
     padding: 20px;
@@ -2537,6 +2630,9 @@ p.partner-title{
     
 }
 
+.brand-item{
+    text-align: center;
+}
 
 
 
@@ -2651,7 +2747,7 @@ p.partner-title{
 
 }
 
-.nursing-home-business .circle {
+.list-item .circle {
     background: #9134AF;
     border-radius: 50%;
     -moz-border-radius: 50%;
@@ -2663,7 +2759,17 @@ p.partner-title{
     text-align: center;
     width: 40px;
     float: left;
-  }
+}
+
+.list-item .no {
+    color: #9134AF;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    width: 40px;
+    float: left;
+}
+
 .nursing-home-business .content{
 word-wrap: break-word;
 margin-left: 55px;
@@ -2821,8 +2927,27 @@ footer{
   }
 
   .social-block {
-    width: 113px;
-    font-size: 14px;
+    min-width: 90px;
+    font-size: 12px;
+  }
+
+  .social-block a{
+    float: left;
+  }
+  .social-block span{
+    padding-top: 5px;
+  }
+
+  .social-block2 {
+    width: 130px;
+    font-size: 12px;
+  }
+  .social-block2 a{
+    float: left;
+  }
+
+  .social-block2 span{
+    padding-top: 5px;
   }
 
 .social-footer-icon{
@@ -3015,263 +3140,80 @@ footer{
 .txt-navy{
     color:#002E69 !important;
 }
+.txt-uppercase{
+    text-transform: uppercase;
+}
 
 
-
-/* media screen */
-/* Small devices (landscape phones, 576px and up)*/
-@media (max-width: 576px) { 
-     body{
-        background-size: 100% 260px;
-        
-     }
-
-     .slider-bg {
-        background-size:cover;
-        background-position: right;
-        min-height: 400px;
-        padding: 80px 0;
-    }
-    
-    .slider-content{
-        padding-top: 0px;
-    }
-
-    .why-us {
-        align-items: center;
-        justify-content: center;
-    }
-
-    .why-us-icon{
-        height: 45px;
-        width: auto;
-        margin-right: 15px;
-    }
-
-    .why-us-content{
-        padding-left: 40px;
-    }
-    .why-us-bg-1,
-    .why-us-bg-2,
-    .why-us-bg-3,
-    .why-us-bg-4{
-        background-color: #f9f9f9;
-    }
-    .location-item-list-right {
-        margin-top: 0;
-    } 
-    
-
-     .technology-lead-photo{
-        width:100%;
-    }
-
-    .training-center-bg{
-        background: #002E69;
-        background-image:none;
-        background-repeat: no-repeat;
-        background-size:inherit;
-        background-position: right center;
-        
-    }
-
-    .partner-item{
-        width:33.3333%;
-       /* border: 1px dotted #000;*/
-        color:#000;
-        padding: 20px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .partner-item img{
-        width: 85%;
-    }
-
-    .breadcrumb-bg{
-        height: 100%;
-    
-    }
-
-
-    .breadcrumb-content {
-      background-color: rgba(255, 255, 255, 0.6);
-    }
-    
-
-    
- }
-
-/* Medium devices (tablets, 768px and up)*/
-@media (max-width: 768px) { 
-    body{
-        background-size: 100% 260px;
-     }
-
-     .slider-bg {
-        background-size:cover;
-        background-position: right;
-        min-height: 400px;
-        padding: 80px 0;
-    }
-    
-    .slider-content{
-        padding-top: 0px;
-    }
-
-    .why-us {
-        align-items: center;
-        justify-content: center;
-    }
-
-    .why-us-icon{
-        height: 35px;
-        width: auto;
-        margin-right: 10px;
-    }
-
-    .why-us-content{
-        padding-left: 40px;
-        
-       }
-    .why-us-bg-1,
-    .why-us-bg-2,
-    .why-us-bg-3,
-    .why-us-bg-4{
-        background-color: #f9f9f9;
-        background-image: none;
-        min-height: unset;
-    }
-
-    .location-item-list-right {
-        margin-top: 0;
-    } 
-    
-    
-     .technology-lead-photo{
-        width:100%;
-    }
-
-
-
-    .training-center-bg{
-        background: #002E69;
-        background-image:none;
-        background-repeat: no-repeat;
-        background-size:inherit;
-        background-position: right center;
-        
-    }
-
-    .partner-item{
-        width:25%;
-       /* border: 1px dotted #000;*/
-        color:#000;
-        padding: 15px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .partner-item img{
-        width: 85%;
-    }
-
-    .brand-concept-bg{
-        width: 100%;
-        background: none;
-        position: relative;
-      }
-
-     .concept-dignity-area,
-     .concept-dignity-area h2{
-        color:#002e69;
-        text-align: center;
-     }
-
-     .concept-body-area h2{
-        text-align: center;
-     }
-
-     .service-bg{
-        background-color: #ffffff;
-     }
-
-     .product-item{
-        min-height:fit-content !important;
-    }
-
-    .breadcrumb-bg{
-        height: 100%;
-    
-    }
-
-
-    .breadcrumb-content {
-      background-color: rgba(255, 255, 255, 0.6);
-    }
-
-    .footer-logo {
-        text-align: center;
-    }
-  
-    .social-row {
-        justify-content: center; 
-        padding-bottom: 10px;
-    }
-    
-
-   
- }
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { 
-    .partner-item{
-        width:15%;
-       /* border: 1px dotted #000;*/
-        color:#000;
-        padding: 20px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .partner-item img{
-       
-    }
- }
-
-/* X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { 
-    .partner-item{
-        width:12%;
-       /* border: 1px dotted #000;*/
-        color:#000;
-        padding: 20px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .partner-item img{
-    
-    }
- }
-
-/* XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) { .partner-item{
-    width:12%;
-   /* border: 1px dotted #000;*/
-    color:#000;
-    padding: 20px;
+.circle {
+    background: #9134AF;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 40px;
     text-align: center;
-    margin-bottom: 20px;
-}
-
-.partner-item img{
+    width: 40px;  
    
-} 
+  }
+
+.min-h-200{
+    min-height: 200px;
+}  
+
+.tiktok-icon:hover {
+    filter: invert(0.34) sepia(1) saturate(20) hue-rotate(208.8deg) brightness(0.75);
+  }
+
+
+/*Animation*/
+.ToFadeInAndOut {
+    animation: fadeInOut 5s linear 1 forwards;
 }
 
-@media (max-width: 1500px)
-.slider-content h3 {
-    font-size: 40px;
+.ToFadeIn {
+    animation: fadeIn 3s linear 1 forwards;
+}
+
+.ToFadeOut {
+    animation: fadeOut 3s linear 1 forwards;
+}
+  
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 

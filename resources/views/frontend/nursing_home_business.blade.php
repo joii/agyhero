@@ -1,5 +1,8 @@
 @extends('frontend.main_master')
 @section('main')
+@section('title')
+Nursing Home Business | AGYHERO | THE NURSING HOME EXPERT 
+@endsection
  <!-- breadcrumb-area -->
  <section class="breadcrumb-area">
     <div class="breadcrumb-bg" data-background="{{asset('frontend/assets/img/nursing-home-business/banner.png')}}"></div>
@@ -247,7 +250,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="list-item">
-                    <div class="circle">01</div>    
+                    <div class="no">01</div>    
                     <div class="content">
                         <strong>Building Owners</strong><br/>
                             @if(session()->get('language') == 'english')
@@ -261,7 +264,7 @@
             </div>
             <div class="col-md-6">
                 <div class="list-item">
-                    <div class="circle">02</div>    
+                    <div class="no">02</div>    
                     <div class="content"> 
                         <strong>Franchise Investor</strong><br/>
                             @if(session()->get('language') == 'english')
@@ -275,7 +278,7 @@
             </div>
             <div class="col-md-6">
                 <div class="list-item">
-                    <div class="circle">03</div>    
+                    <div class="no">03</div>    
                     <div class="content">
                         <strong>Developer & Investor</strong><br/>
                            @if(session()->get('language') == 'english')
@@ -288,7 +291,7 @@
             </div>
             <div class="col-md-6">
                 <div class="list-item">
-                    <div class="circle">04</div>    
+                    <div class="no">04</div>    
                     <div class="content"> 
                         <strong>Nursing Home Business Owner</strong><br/>
                         @if(session()->get('language') == 'english')

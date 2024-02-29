@@ -1,39 +1,54 @@
  <!-- slider-area -->
  <section class="slider-area slider-x-margin">
     <div class="slider-active">
-        <div class="single-slider slider-bg d-flex " data-background="{{ asset('frontend/assets/img/slider/banner-1.png')}}">
+        <div class="single-slider slider-bg d-flex  slide1" >
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="slider-content ">
-                            <img src="{{ asset('frontend/assets/img/logo/logo_light_bg.png')}}" alt="" title="" data-animation="fadeInUp" data-delay=".2s" width="190" class="mb-20">
-                            <h3 data-animation="fadeInUp" data-delay=".3s">Professional Team <br/>20 Year Experience</h3>
-                            <h5 data-animation="fadeInUp" data-delay=".5s">Innovation Ampering Age Care</h5>
-                            <h5 data-animation="fadeInUp" data-delay=".7s">Human Care At Heart</h5>
+                            <img src="{{ asset('frontend/assets/img/logo/logo_light_bg.png')}}" alt="" title=""  width="190" class="mb-70 d-none d-sm-none d-md-block">
+                            <h4 data-animation="fadeInUp" data-delay=".3s" class="slide-header d-none d-sm-none d-md-block">Professional Team <br/><span class="txt-purple">20 Years Experience</span><br/></h4>
+                            <h4 data-animation="fadeInUp" data-delay=".4s" class="slide-header d-none d-sm-none d-md-block">Innovation Ampering <br/><span class="txt-purple">Age Care</span><br/></h4> 
+                            <h4 data-animation="fadeInUp" data-delay=".5s" class="slide-heade d-none d-sm-none d-md-block">Human Care at <span class="slide-txt-purple">Heart</span></h4>
+                           
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="single-slider slider-bg d-flex " data-background="{{ asset('frontend/assets/img/slider/banner-2.png')}}">
+        <div class="single-slider slider-bg d-flex slide2">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="slider-content text-center">
-                            <img src="{{ asset('frontend/assets/img/logo/logo_light_bg.png')}}" alt="" title="" data-animation="fadeInUp" data-delay=".2s" width="190" class="mb-20">
-                            <h3 data-animation="fadeInUp" data-delay=".3s">Innovation Ampering <br/>Age Care</h3> 
+                        <div class="slider-content ">
+                            <img src="{{ asset('frontend/assets/img/logo/logo_light_bg.png')}}" alt="" title="" data-animation="fadeInUp" data-delay=".2s" width="190" class="mb-70 d-none d-sm-none d-md-block">
+                            <h3 data-animation="fadeInUp" data-delay=".3s" class="slide-header d-none d-sm-none d-md-block">Professional <br/>Team <span class="txt-purple">20 Years <br/>Experience</span></h3>
+                            
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="single-slider slider-bg d-flex " data-background="{{ asset('frontend/assets/img/slider/banner-3.png')}}">
+        <div class="single-slider slider-bg d-flex slide3" >
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="slider-content text-center">
-                            <img src="{{ asset('frontend/assets/img/logo/logo_light_bg.png')}}" alt="" title="" data-animation="fadeInUp" data-delay=".2s" width="190" class="mb-20">
-                            <h3 data-animation="fadeInUp" data-delay=".3s">Human Care <br/>at <span class="slide-txt-purple">Heart</span></h3>
+                        <div class="slider-content">
+                            <img src="{{ asset('frontend/assets/img/logo.png')}}" alt="" title="" data-animation="fadeInUp" data-delay=".2s" width="190" class="mb-70 d-none d-sm-none d-md-block">
+                            <h3 data-animation="fadeInUp" data-delay=".3s" class="text-white slide-header d-none d-sm-none d-md-block">Innovation <br/>Ampering <br/>Age Care</h3> 
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="single-slider slider-bg d-flex slide4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="slider-content">
+                            <img src="{{ asset('frontend/assets/img/logo/logo_light_bg.png')}}" alt="" title="" data-animation="fadeInUp" data-delay=".2s" width="190" class="mb-70 d-none d-sm-none d-md-block">
+                            <h3 data-animation="fadeInUp" data-delay=".3s" class="slide-header d-none d-sm-none d-md-block">Human Care <br/>at <span class="slide-txt-purple">Heart</span></h3>
         
                         </div>
                     </div>

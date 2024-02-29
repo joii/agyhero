@@ -53,7 +53,7 @@
                                         </div>
                                         <div class="h-contact-content">
                                             <h5>contact:</h5>
-                                            <span>+66(0)2000 0000</span>
+                                            <span>+66(0)65-986-5248</span>
                                         </div>
                                     </div>
                                 </li>
@@ -69,15 +69,26 @@
                             <div class="nav-logo"><a href="/"><img src="{{ asset('frontend/assets/img/logo/logo_light_bg.png')}}" alt="" title=""></a>
                             </div>
                             <div class="menu-outer">
+                            <div class=" text-right pr-30">
+                            <a href="{{ route('english.language') }}" class="lang txt-navy @if(session()->get('language') == 'english') active @endif ">EN</a> / <a href="{{ route('thai.language') }}" class="lang txt-navy @if(session()->get('language') == 'thai') active @endif">TH</a>
+                          
+                            </div>    
+                           
                                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                             </div>
                             
                             <div class="social-links">
                                 <ul class="clearfix">
-                                    <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                    <li><a href="#"><span class="fab fa-youtube"></span></a></li>
-                                </ul>
+                                    <li><a href="https://www.facebook.com/AgyheroNursingHomeExpert" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="https://www.youtube.com/@AgyHero-ff2uz" target="_blank"><span class="fab fa-youtube"></span></a></li>
+                                    <li><a href="https://www.instagram.com/agyhero/" target="_blank"><span class="fab fa-instagram"></span></a></li>
+                                    <li><a href="https://www.tiktok.com/@agyhero.official?_t=8k0ZxQTsH2X&_r=1" target="_blank"><img src="{{ asset('frontend/assets/img/icon/tiktok.svg')}}" width="35" class="tiktok-icon"></a></li>
+                                   
+                                   </ul>
+                            
+                             
                             </div>
+                           
                         </nav>
                     </div>
                     <!-- End Mobile Menu -->

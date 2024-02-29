@@ -1,5 +1,8 @@
 @extends('frontend.main_master')
 @section('main')
+@section('title')
+NEWS | AGYHERO | THE NURSING HOME EXPERT 
+@endsection
  <!-- breadcrumb-area -->
  <section class="breadcrumb-area">
 <div class="breadcrumb-bg" data-background="{{ asset('frontend/assets/img/why-us/banner.png')}}"></div>
@@ -11,7 +14,14 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="/">HOME</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">News</li>
+                        <li class="breadcrumb-item " aria-current="page"><a href="{{route('home.news')}}">News</a></li>
+                        <li class="breadcrumb-item active">
+                        @if(session()->get('language') == 'english')
+                        {{ $news->news_title_th }}
+                        @else
+                        {{ $news->news_title_en }}
+                        @endif
+                        </li>
                     </ol>
                 </nav>
             </div>

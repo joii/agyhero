@@ -160,8 +160,8 @@ function mainSlider() {
 			// return '<a>'+(i+1)+'</a>'; // <-- old
 			return '<button>' + ('0' + (i + 1)).slice(-2) + '</button>'; // <-- new
 		},
-		autoplay: false,
-		autoplaySpeed: 10000,
+		autoplay: true,
+		autoplaySpeed: 3000,
 		dots: true,
 		fade: true,
 		arrows: false,

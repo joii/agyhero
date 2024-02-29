@@ -61,6 +61,10 @@ Route::get('/telemed', function () {
     return view('frontend.telemed');
 });
 
+Route::get('/supplyment', function () {
+    return view('frontend.supplyment');
+});
+
 
 
 
@@ -107,7 +111,8 @@ Route::controller(NewsCategoryController::class)->group(function(){
 
     // Frontend
     Route::get('/news/details/{id}', 'NewsDetails')->name('news.details');    
-    Route::get('/news', 'HomeNews')->name('home.news');
+    //Route::get('/news', 'HomeNews')->name('home.news');
+    Route::get('/news', 'AllNewsPage')->name('home.news');
      
 });
 

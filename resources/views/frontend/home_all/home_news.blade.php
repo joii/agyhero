@@ -20,7 +20,7 @@
         <div class="row blog-active">
             @foreach($news as $item)
         
-            <div class="col-lg-6" >
+            <div class="col-md-6" >
                 <div class="blog-post-item bp-style-one mb-50" style="padding: 0;">
                     <div class="blog-post-thumb">
                         <a href="{{ route('news.details',$item->id) }}">

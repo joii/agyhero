@@ -53,9 +53,7 @@
                         Introducing our Smart Health Device for elderly care,
                         a solution centered around an advanced online medical record system and the Internet of Medical Things (IoMT). For seniors with seamless connectivity and personalized experiences.
                         @else
-                        Introducing our Smart Health Device for elderly care,
-                        a solution centered around an advanced online medical record system and the Internet of Medical Things (IoMT). For seniors with seamless connectivity and personalized experiences.
- 
+                        เทคโนโลยีรูปแบบใหม่สำหรับการดูแลผู้สูงอายุ เพื่อให้การดูแลและฟื้นฟูนั้นมีประสิทธิภาพ การนำเทคโนโลยีสมัยใหม่ทางการแพทย์ เป็นเรื่องที่จะช่วยทำให้เกิดความแตกต่างและได้ผลลัพธ์ของการดูแลสูงสุด
                         @endif
                     </p>
                 </div>
@@ -93,8 +91,7 @@
                         @if(session()->get('language') == 'english') 
                         We empower nurses with specialized training and invite forward-thinking partners to revolutionize eldercare. Experience the synergy of expertise and collaboration.
                         @else
-                        We empower nurses with specialized training and invite forward-thinking partners to revolutionize eldercare. Experience the synergy of expertise and collaboration.
-
+                        สร้างความเชี่ยวชาญในการดูแลผู้สูงอายุ ด้วยการฝึกอบรมเฉพาะทาง ให้กับเจ้าหน้าที่ดูแลผู้สูงอายุด้วยองค์ความรู้จากพยาบาลวิชาชีพเฉพาะทางสำหรับการดูแลผู้สูงอายุโดยเฉพาะ ทำให้เจ้าหน้าที่ดูแลผู้สูงอายุนั้น สามารถทำงานร่วมกับพยาบาลวิชาชีพได้เป็นอย่างดี
                         @endif
                    
                     </p>
@@ -134,14 +131,14 @@
                         @endif
                     </p>
                 </div>
-                <!-- <div class="about-us-btn">
-                    <a href="supplyment.html" class="btn"> 
+               <div class="about-us-btn">
+                    <a href="/supplyment" class="btn"> 
                     @if(session()->get('language') == 'english')   
                     READ MORE 
                     @else
                     ดูรายละเอียดเพิ่มเติม
                     @endif <i class="fal fa-angle-down"></i></a><br/><br/>
-                </div> -->
+                </div> 
             </div>
             <div class="col-lg-6 supplyment-home-photo">
                 

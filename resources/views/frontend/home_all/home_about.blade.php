@@ -26,7 +26,7 @@
         <div class="col-lg-6">
             <div class="about-us-content ">
                 <div class="about-inner-wrap">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Z7f5xkucTA0?si=DI2elgAfdgAMn27W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Y4dyB-qAhk4?si=VZJGp40mGgPaA354" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
                 </div>
             </div>
         </div>

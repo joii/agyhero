@@ -86,7 +86,7 @@
                         </h4>
                     </div>
                     </div>
-                    <img src="{{ asset('frontend/assets/img/home/solution-5.png')}}" width="100%" alt="AgyHero : THE NURSING HOME EXPERT" title="AgyHero : THE NURSING HOME EXPERT"  />
+                    <img src="{{ asset('frontend/assets/img/home/solution-6.png')}}" width="100%" alt="AgyHero : THE NURSING HOME EXPERT" title="AgyHero : THE NURSING HOME EXPERT"  />
             </div>  
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8 pt-30">
                 <div class="services-item text-center ">
@@ -103,7 +103,7 @@
                         </h4>
                     </div>
                     </div>
-                    <img src="{{ asset('frontend/assets/img/home/solution-6.png')}}" width="100%" alt="AgyHero : THE NURSING HOME EXPERT" title="AgyHero : THE NURSING HOME EXPERT"  />
+                    <img src="{{ asset('frontend/assets/img/home/solution-5.png')}}" width="100%" alt="AgyHero : THE NURSING HOME EXPERT" title="AgyHero : THE NURSING HOME EXPERT"  />
             </div>     
         </div>
     </div>

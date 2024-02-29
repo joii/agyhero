@@ -1,5 +1,8 @@
 @extends('frontend.main_master')
 @section('main')
+@section('title')
+WHY US | AGYHERO | THE NURSING HOME EXPERT
+@endsection
  <!-- breadcrumb-area -->
  <section class="breadcrumb-area">
 <div class="breadcrumb-bg" data-background="{{ asset('frontend/assets/img/why-us/banner.png')}}"></div>
@@ -121,7 +124,7 @@
                     @if(session()->get('language') == 'english') 
                     Partnerships
                     @else
-                    ฐานลูกค้า
+                    พันธมิตรทางธุรกิจ
                     @endif
                     
                     </h6>

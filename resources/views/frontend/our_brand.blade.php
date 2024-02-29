@@ -1,5 +1,8 @@
 @extends('frontend.main_master')
 @section('main')
+@section('title')
+OUR BRAND | AGYHERO | THE NURSING HOME EXPERT 
+@endsection
  <!-- breadcrumb-area -->
  <section class="breadcrumb-area">
 <div class="breadcrumb-bg" data-background="{{ asset('frontend/assets/img/our-brand/banner.png')}}"></div>
@@ -89,7 +92,7 @@
 <!-- showroom-end-->
 
 <!-- brand-concept-title -->
-<section class="pt-70 pb-50">
+<section class="pt-70">
 <div class="container">
 <div class="row justify-content-center">
     <div class="col-md-8 text-center section-title">
@@ -116,21 +119,55 @@ It serves as an additional and comprehensive support for families in caring for 
 <div class="container">
     <div class="row justify-content-center pt-50 pb-50">
     <div class="col-md-4 concept-body-area" >
-        <h2>Body</h2>
+        <h2>
+            @if(session()->get('language') == 'english')
+            Body
+            @else 
+            สุขภาพทั่วไป
+            @endif
+        
+        </h2>
             <ul> 
-                <li><strong>Personal hygiene:</strong> enabling and supporting people to maintain their usual standards of hygiene.</li>
-                <li><strong>Eating and nutritional care:</strong> providing meals that meet the service user's needs and preferences.</li>
-                <li><strong>Choice and control:</strong> enabling service users to make choices about the care and treatment they receive.</li>
-                <li><strong>Pain management: </strong>ensuring service users have the correct support and medication to manage their pain.</li>
-            </ul>
+            @if(session()->get('language') == 'english')
+            <li><strong>Personal hygiene:</strong> enabling and supporting people to maintain their usual standards of hygiene.</li>
+            <li><strong>Eating and nutritional care:</strong> providing meals that meet the service user's needs and preferences.</li>
+            <li><strong>Choice and control:</strong> enabling service users to make choices about the care and treatment they receive.</li>
+            <li><strong>Pain management: </strong>ensuring service users have the correct support and medication to manage their pain.</li>
+    
+            @else 
+            <li><strong>Personal hygiene:</strong> ดูแลสุขภาพร่างกายให้เป็นไปตามเกณฑ์มาตรฐาน</li>
+            <li><strong>Eating and nutritional care:</strong>การจัดเตรียมอาหารที่ตรงกับความต้องการและความชอบของผู้สูงอายุ</li>
+            <li><strong>Choice and control:</strong> ให้ทางเลือกที่เหมาะสมในการดูแลและการรักษาที่จะได้รับ</li>
+            <li><strong>Pain management: </strong>ตรวจสอบยาที่ใช้ดูแลผู้สูงอายุเป็นไปอย่างเหมาะสม</li>
+    
+            @endif
+           </ul>
     </div>
     <div class="col-md-4 pt-30"></div>
     <div class="col-md-4 concept-dignity-area">
-            <h2>Dignity</h2>
+            <h2>
+                @if(session()->get('language') == 'english')
+                Dignity
+                @else 
+                สังคมและการอยู่ร่วมกัน
+                @endif
+
+
+            </h2>
             <ul>
+            @if(session()->get('language') == 'english')
             <li><strong>Communication:</strong> speaking to people respectfullyand listening to what they have to say, this includes using their preferred method of communication.</li>
-            <li><strong>Social inclusion:</strong> supporting people to keep in contact with loved ones and participate in social activities where possible Practical assistance: providing service users with the correct level of support to maintain their independence.</li>
-            </ul>
+            <li><strong>Social inclusion:</strong> supporting people to keep in contact with loved ones and participate in social</li>
+            <li><strong>activities where possible Practical assistance:</strong> providing service users with the correct level of support to maintain their independence.</li>
+  
+                @else 
+                <li><strong>Communication:</strong> การพูดคุย ด้วยความเคารพและฟังความต้องการของผู้สูงอายุ</li>
+            <li><strong>Social inclusion:</strong> การสร้างสังคมที่ดี มีปฏิสัมพันธ์กันด้วยความเข้าใจและโอบอ้อมอารี</li>
+            <li><strong>activities where possible Practical assistance:</strong> สร้างกิจกรรมเพื่อให้เกิดความสัมพันธ์อันดี ในการอยู่ร่วมกัน</li>
+  
+  
+                @endif
+              </ul>
     </div>
 </div>
 </div>
@@ -140,10 +177,22 @@ It serves as an additional and comprehensive support for families in caring for 
 <section class="brand-respect-bg">
 <div class="container">
 <div class="row justify-content-center pt-50 pb-50">
-    <div class="col-6 text-center">
-        <h2 class="txt-purple ">With Respect</h2>
+    <div class="col-7 text-center">
+        <h2 class="txt-purple ">
+            @if(session()->get('language') == 'english')
+            With Respect
+            @else 
+            เคารพและความเป็นส่วนตัว
+            @endif
+
+        </h2>
+        @if(session()->get('language') == 'english')
         <p><strong>Confidentiality</strong> - ensuring all services are carried out with respect to agreed confidentiality and preference of personal space<br/>
         <strong>Beliefs</strong> - Being considerate of their religious and cultural beliefs</p>
+            @else 
+            <p><strong>Confidentiality</strong> - การดูแลเฉพาะบุคคล และรักษาความเป็นส่วนตัวสำหรับข้อมูลของผู้สูงอายุ<br/>
+        <strong>Beliefs</strong> - เคารพความเชื่อและความแตกต่างของแต่ละบุคคล</p>
+            @endif
     </div>
 </div>    
 </div>
@@ -169,7 +218,7 @@ It serves as an additional and comprehensive support for families in caring for 
         <div class="col-md-4 col-sm-12 pt-30 ">
         <div class="card product-item "> 
             <div class="card-body pt-50">
-                <div class="service-circle product-color-1"><img src="{{ asset('frontend/assets/img/our-brand/icon-service-1.svg')}}" alt="AgyHero : THE NURSING HOME EXPERT" title="AgyHero : THE NURSING HOME EXPERT"/></div>  
+                <div class="service-circle product-color-0"><img src="{{ asset('frontend/assets/img/our-brand/icon-service-1.png')}}" alt="AgyHero : THE NURSING HOME EXPERT" title="AgyHero : THE NURSING HOME EXPERT"/></div>  
                 @if(session()->get('language') == 'english')
                 <h4 class="card-title text-center pt-20">Monthly Long-Term <br/>Elderly Care Service</h4>
                 <ul>
@@ -190,13 +239,13 @@ It serves as an additional and comprehensive support for families in caring for 
                 </ul>
                 @endif
             </div>
-            <div class="product-item-footer product-color-1 text-center">35,000-45,000 @if(session()->get('language') == 'english') Baht / month @else บาท/เดือน @endif</div>
+            <div class="product-item-footer product-color-4 text-center">35,000-45,000 @if(session()->get('language') == 'english') Baht / month @else บาท/เดือน @endif</div>
         </div>
     </div>  
     <div class="col-md-4 col-sm-12 pt-30">
         <div class="card product-item "> 
             <div class="card-body pt-50">
-                <div class="service-circle product-color-2"><img src="{{ asset('frontend/assets/img/our-brand/icon-service-2.svg')}}" alt="AgyHero : THE NURSING HOME EXPERT" title="AgyHero : THE NURSING HOME EXPERT"/></div>  
+                <div class="service-circle product-color-0"><img src="{{ asset('frontend/assets/img/our-brand/icon-service-2.png')}}" alt="AgyHero : THE NURSING HOME EXPERT" title="AgyHero : THE NURSING HOME EXPERT"/></div>  
                 @if(session()->get('language') == 'english')
                 <h4 class="card-title text-center pt-20">Daily Care Service</h4>
                 <ul>
@@ -212,13 +261,13 @@ It serves as an additional and comprehensive support for families in caring for 
                 @endif
             
             </div>
-            <div class="product-item-footer product-color-2 text-center">1,500 @if(session()->get('language') == 'english') Baht / day @else บาท/วัน @endif</div>
+            <div class="product-item-footer product-color-4 text-center">1,500 @if(session()->get('language') == 'english') Baht / day @else บาท/วัน @endif</div>
         </div>
     </div>  
     <div class="col-md-4 col-sm-12 pt-30">
         <div class="card product-item "> 
             <div class="card-body pt-50">
-                <div class="service-circle product-color-3"><img src="{{ asset('frontend/assets/img/our-brand/icon-service-3.svg')}}" alt="AgyHero : THE NURSING HOME EXPERT" title="AgyHero : THE NURSING HOME EXPERT"/></div>  
+                <div class="service-circle product-color-0"><img src="{{ asset('frontend/assets/img/our-brand/icon-service-3.png')}}" alt="AgyHero : THE NURSING HOME EXPERT" title="AgyHero : THE NURSING HOME EXPERT"/></div>  
                 @if(session()->get('language') == 'english')
                 <h4 class="card-title text-center pt-20">At-Home Care Service</h4>
                 <ul>
@@ -233,7 +282,7 @@ It serves as an additional and comprehensive support for families in caring for 
                 @endif
             
             </div>
-            <div class="product-item-footer product-color-3 text-center">35,000-45,000 @if(session()->get('language') == 'english') Baht / month @else บาท/เดือน @endif</div>
+            <div class="product-item-footer product-color-4 text-center">35,000-45,000 @if(session()->get('language') == 'english') Baht / month @else บาท/เดือน @endif</div>
         </div>
     </div>   
     </div>    
@@ -261,7 +310,7 @@ It serves as an additional and comprehensive support for families in caring for 
                     @if(session()->get('language') == 'english')
                     <strong>Comprehensive Care Focus:</strong> Care-D Nursing Home emphasizes providing care in various forms, including daily home care services, center-based daily care, and long-term elderly care.
                     @else
-                    <strong>ความเน้นในการดูแลทุกรูปแบบ:</strong> <br/>Care-D Nursing Home มุ่งเน้นในการให้บริการดูแลที่ครอบคลุมทุกรูปแบบ ทั้งการดูแลรายวันที่บ้าน, บริการดูแลรายวันที่ศูนย์, และบริการดูแลผู้สูงอายุแบบระยะยาว
+                    <strong>เน้นในการดูแลทุกรูปแบบ:</strong> <br/>Care-D Nursing Home มุ่งเน้นในการให้บริการดูแลที่ครอบคลุมทุกรูปแบบ ทั้งการดูแลรายวันที่บ้าน, บริการดูแลรายวันที่ศูนย์, และบริการดูแลผู้สูงอายุแบบระยะยาว
                     @endif
 
                 </div>
@@ -510,7 +559,7 @@ It serves as an additional and comprehensive support for families in caring for 
                 @if(session()->get('language') == 'english')
                 <strong>Analytical Management Systems:</strong> You will have access to analytical management systems that assist in managing and tracking the efficiency of your business.
                 @else
-                <strong>ระบบการบริหารที่เครื่องเคราะห์:</strong> คุณจะได้รับการเข้าถึงระบบบริหารที่เครื่องเคราะห์ที่ช่วยในการจัดการและติดตามประสิทธิภาพของธุรกิจ
+                <strong>ส่งเสริมและสนับสนุนให้เข้าถึงเทคโนโลยีนวัตกรรม:</strong> คุณจะได้รับการเข้าถึงระบบบริหารที่เครื่องเคราะห์ที่ช่วยในการจัดการและติดตามประสิทธิภาพของธุรกิจ
                 @endif
             </div>
         </div> 

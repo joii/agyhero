@@ -135,6 +135,11 @@ class NewsController extends Controller
 
  } // End Method 
 
+public function AllNewsPage(){
+
+    $all_news = News::latest()->get();
+    return view('frontend.news',compact('all_news'));
+} // End Method
 
  public function HomeNews(){
 
