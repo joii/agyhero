@@ -8,7 +8,7 @@
                         <div class="slider-content ">
                             <img src="{{ asset('frontend/assets/img/logo/logo_light_bg.png')}}" alt="" title=""  width="190" class="mb-70 d-none d-sm-none d-md-block">
                             <h4 data-animation="fadeInUp" data-delay=".3s" class="slide-header d-none d-sm-none d-md-block">Professional Team <br/><span class="txt-purple">20 Years Experience</span><br/></h4>
-                            <h4 data-animation="fadeInUp" data-delay=".4s" class="slide-header d-none d-sm-none d-md-block">Innovation Ampering <br/><span class="txt-purple">Age Care</span><br/></h4> 
+                            <h4 data-animation="fadeInUp" data-delay=".4s" class="slide-header d-none d-sm-none d-md-block">Innovation-Oriented <br/><span class="txt-purple">Age Care</span><br/></h4> 
                             <h4 data-animation="fadeInUp" data-delay=".5s" class="slide-heade d-none d-sm-none d-md-block">Human Care at <span class="slide-txt-purple">Heart</span></h4>
                            
                         </div>
