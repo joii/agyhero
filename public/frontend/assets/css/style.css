@@ -787,7 +787,7 @@ strong{
 }
 .mobile-menu .navigation li.current>a:before {
 	height: 100%;
-    
+
 }
 .mobile-menu .menu-backdrop {
 	position: fixed;
@@ -1103,7 +1103,7 @@ strong{
     width: 58.23%;
     background-position: center;
     background-size: cover;
-   
+
 }
 .breadcrumb-content {
     max-width: 629px;
@@ -1150,9 +1150,9 @@ strong{
     background-size:contain;
     background-repeat: no-repeat;
     background-position: right;
-    /* min-height: 750px; */
+    min-height: 550px;
     padding: 80px 0;
-} 
+}
 
 .slider-content{
     padding-top: 0px;
@@ -1382,7 +1382,7 @@ strong{
 }
 
 .why-us-content{
-   
+
 }
 
 .why-us-icon{
@@ -1456,7 +1456,7 @@ strong{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    
+
 }
 
 .why-us-bg-2{
@@ -1465,7 +1465,7 @@ strong{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    
+
 }
 
 .why-us-bg-3{
@@ -1474,7 +1474,7 @@ strong{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    
+
 }
 
 .why-us-bg-4{
@@ -1483,14 +1483,14 @@ strong{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    
+
 }
 
 .why-us-content{
     padding: 40px;
     padding-left: 40%;
     color: #002E69;
-    
+
 }
 
 .why-us-content h6{
@@ -1510,7 +1510,7 @@ strong{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    
+
 }
 
 .market-bg{
@@ -1522,11 +1522,11 @@ strong{
 }
 
 .location-item-list li{
-    background: url('../img/why-us/location-pin.png') no-repeat; 
-    background-position: left bottom; 
-    background-size: contain; 
-    height: 60px; 
-    padding-left: 45px; 
+    background: url('../img/why-us/location-pin.png') no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+    height: 60px;
+    padding-left: 45px;
     padding-top: 15px;
     color: #002E69;
     margin-bottom: 25px;
@@ -1536,22 +1536,22 @@ strong{
     margin-top:100px;
 }
 .location-item-list-right li{
-    background: url('../img/why-us/location-pin.png') no-repeat; 
-    background-position: left bottom; 
-    background-size: contain; 
-    height: 60px; 
-    padding-left: 45px; 
+    background: url('../img/why-us/location-pin.png') no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+    height: 60px;
+    padding-left: 45px;
     padding-top: 15px;
     color: #002E69;
     margin-bottom: 25px;
 }
 
 .location-description{
-    position: absolute; 
-    top:260px; 
+    position: absolute;
+    top:260px;
     right: 15%;
     color:#1EB0DE;
-    font-size: 24px; 
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -1587,9 +1587,9 @@ strong{
     );
     position: relative;
   }
- 
+
 .concept-body-area{
-   
+
 }
 .concept-dignity-area,
 .concept-dignity-area h2{
@@ -1628,7 +1628,7 @@ strong{
 }
 .product-item li{
     list-style: square !important;
-    
+
 }
 .product-item-body{
 
@@ -1688,7 +1688,7 @@ strong{
     margin-bottom: 20px;
     min-height: 135px;
     position: relative;
-   
+
 }
 
 .strength-area .circle {
@@ -1705,8 +1705,8 @@ strong{
     float: left;
     position: absolute;
     top: 30%;
-   
-   
+
+
   }
 .strength-area .content{
 word-wrap: break-word;
@@ -1722,8 +1722,8 @@ margin-left: 55px;
     margin-bottom: 20px;
     min-height: 135px;
     position: relative;
-   
-    
+
+
 
 }
 
@@ -1741,8 +1741,8 @@ margin-left: 55px;
     float: left;
     position: absolute;
     top: 30%;
-   
-   
+
+
   }
   .franchise-area .content{
 word-wrap: break-word;
@@ -1761,8 +1761,8 @@ margin-left: 55px;
     margin-bottom: 20px;
     min-height: 135px;
     position: relative;
-   
-    
+
+
 
 }
 
@@ -1780,8 +1780,8 @@ margin-left: 55px;
     float: left;
     position: absolute;
     top: 30%;
-   
-   
+
+
   }
   .franchisor-area .content{
 word-wrap: break-word;
@@ -1807,7 +1807,7 @@ margin-left: 55px;
 }
 .contact-box-1{
     background-color: #f2f2f2;
-    
+
 }
 
 .contact-box-2{
@@ -1896,18 +1896,22 @@ margin-left: 55px;
 
 .slide1{
     background-image: url('../img/slider/banner-1.png') ;
+    background-size: cover;
 }
 
 .slide2{
     background-image: url('../img/slider/banner-2.png') ;
+    background-size: cover;
 }
 
 .slide3{
     background-image: url('../img/slider/banner-3.png') ;
+    background-size: cover;
 }
 
 .slide4{
     background-image: url('../img/slider/banner-4.png') ;
+    background-size: cover;
 }
 
 .services-area{
@@ -2140,7 +2144,7 @@ margin-left: 55px;
 
 .profit-home-bg{
     background: #9134AF;
-    
+
 }
 
 
@@ -2163,13 +2167,13 @@ margin-left: 55px;
 }
 
 .profit-home-area .sub-title{
-    color: #fff; 
+    color: #fff;
 }
 
 
 .profit-bg{
     background:transparent;
-    
+
 }
 
 
@@ -2230,7 +2234,7 @@ margin-left: 55px;
 
 .nursing-home-bg{
     background: #9134AF;
-    
+
 }
 
 
@@ -2259,13 +2263,13 @@ margin-left: 55px;
 }
 
 .nursing-home-area .sub-title{
-    color: #fff; 
+    color: #fff;
 }
 
 
 .nursing-bg{
     background:transparent;
-    
+
 }
 
 .nursing-content{
@@ -2273,7 +2277,7 @@ margin-left: 55px;
 }
 
 .nursing-content .sub-title{
-    color: #9134AF; 
+    color: #9134AF;
 }
 
 .nursing-item{
@@ -2291,7 +2295,7 @@ p.partner-title{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    
+
 }
 
 .iomt-photo{
@@ -2383,7 +2387,7 @@ p.partner-title{
     .telemed-bg-2{
         background:transparent;
     }
-    
+
 }
 
 
@@ -2396,7 +2400,7 @@ p.partner-title{
 
 .technology-bg{
     background: #fff;
-    
+
 }
 
 .technology-content .section-title .title-paragraph {
@@ -2437,7 +2441,7 @@ p.partner-title{
     background-repeat: no-repeat;
     background-size:inherit;
     background-position: right center;
-    
+
 }
 
 .training-center-content .section-title .title-paragraph,
@@ -2461,8 +2465,8 @@ p.partner-title{
 
 .news-bg{
     background: #F9F9F9;
-  
-    
+
+
 }
 
 .news-area .section-title{
@@ -2609,8 +2613,8 @@ p.partner-title{
 
 .partner-bg{
     background: #FFF;
-  
-    
+
+
 }
 
 .partner-area .section-title{
@@ -2618,7 +2622,7 @@ p.partner-title{
 }
 
 .partner-item{
-   
+
    /* border: 1px dotted #000;*/
     color:#000;
     padding: 20px;
@@ -2627,7 +2631,7 @@ p.partner-title{
 }
 
 .partner-item img{
-    
+
 }
 
 .brand-item{
@@ -2726,7 +2730,7 @@ p.partner-title{
     background-repeat: no-repeat;
     background-size:contain;
     background-position: right center; */
-    
+
 }
 
 .nursing-home-business-intro{
@@ -2743,7 +2747,7 @@ p.partner-title{
     background-color: #F9F9F9;
     padding: 20px 25px;
     margin-bottom: 20px;
-    
+
 
 }
 
@@ -2800,7 +2804,7 @@ margin-left: 55px;
 .nursing-home-solution-bg{
     background-color: #9134AF;
  }
- 
+
  .nursing-home-solution-photo{
      background-image: url('../img/nursing-home-business/solution.png');
      background-repeat: no-repeat;
@@ -2825,13 +2829,13 @@ margin-left: 55px;
 
 .who-bg{
     background: #fff;
-    
+
 }
 
 .who-area .list-item{
     padding: 20px 25px;
     margin-bottom: 20px;
-    
+
 
 }
 
@@ -2862,7 +2866,7 @@ margin-left: 80px;
 .nursing-home-content .section-title .title,
 .nursing-home-content .section-title .sub-title {
     padding: 0px;
-  
+
 }
 
 .nursing-home-btn{
@@ -2906,12 +2910,12 @@ footer{
 }
 .footer-nav .icon{
     color: #FFF !important;
-    margin:auto; 
+    margin:auto;
     padding-top: 15px;
 }
 
 .footer-top-area  .social-footer{
-    margin:auto; 
+    margin:auto;
     padding-top: 5px;
     color: #FFF !important;
     margin-left: 15px !important;
@@ -2921,7 +2925,7 @@ footer{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: right; 
+    justify-content: right;
     color: #fff;
     padding-bottom: 0;
   }
@@ -2955,7 +2959,7 @@ footer{
     margin-right: 5px;
 }
 
-    
+
 
 .footer-social ul {
     display: flex;
@@ -3155,13 +3159,13 @@ footer{
     font-weight: bold;
     line-height: 40px;
     text-align: center;
-    width: 40px;  
-   
+    width: 40px;
+
   }
 
 .min-h-200{
     min-height: 200px;
-}  
+}
 
 .tiktok-icon:hover {
     filter: invert(0.34) sepia(1) saturate(20) hue-rotate(208.8deg) brightness(0.75);
@@ -3180,7 +3184,7 @@ footer{
 .ToFadeOut {
     animation: fadeOut 3s linear 1 forwards;
 }
-  
+
 @keyframes fadeInOut {
     0% {
         opacity: 0;
