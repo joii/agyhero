@@ -24,7 +24,7 @@
     <thead>
     <tr>
         <th>No.</th>
-        <th>Category</th>
+        <!-- <th>Category</th> -->
         <th>Title</th>
         <th>Description</th>
         <th>Image</th>
@@ -36,7 +36,7 @@
         @foreach($news as $key => $item)
     <tr>
         <td> {{ $i++}} </td>
-        <td> {{ $item['category']['category_name_en'] }} </td>
+        <!-- <td> {{ $item['category']['category_name_en'] }} </td> -->
         <td> {{ $item->news_title_en }} </td>
         <td> {{ $item->news_description_en }} </td>
         <td> <img src="{{ asset($item->news_image) }}" style="width: 60px; height: 50px;"> </td>  
