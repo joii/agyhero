@@ -11,7 +11,7 @@
                                     <li><a href="/nursing-home-business" >Nursing Home Business</a></li>  
                                     <li><a href="/why-us" >Why Us</a></li>
                                     <li><a href="/our-brand" >Our Brand</a> </li>
-                                    <li><a href="https://devm2.agyhero.com"  target="_blank">Individual services</a></li>
+                                    <li><a href="https://care-d.co"  target="_blank">Individual services</a></li>
                                     <li><a href="/contact-expert" >Contact Expert</a></li>
                                 </ul>
                             </div>
@@ -80,7 +80,7 @@
                             <div class="social-links">
                                 <ul class="clearfix">
                                     <li><a href="https://www.facebook.com/AgyheroNursingHomeExpert" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
-                                    <li><a href="https://www.youtube.com/@AgyHero-ff2uz" target="_blank"><span class="fab fa-youtube"></span></a></li>
+                                    <li><a href="https://www.youtube.com/@AgyheroNursingHomeExpert" target="_blank"><span class="fab fa-youtube"></span></a></li>
                                     <li><a href="https://www.instagram.com/agyhero/" target="_blank"><span class="fab fa-instagram"></span></a></li>
                                     <li><a href="https://www.tiktok.com/@agyhero.official?_t=8k0ZxQTsH2X&_r=1" target="_blank"><img src="{{ asset('frontend/assets/img/icon/tiktok.svg')}}" width="35" class="tiktok-icon"></a></li>
                                    
