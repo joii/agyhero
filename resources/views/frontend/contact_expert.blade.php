@@ -65,7 +65,7 @@ CONTACT EXPERT | AGYHERO | THE NURSING HOME EXPERT
                     <!-- <td><img src="{{ asset('frontend/assets/img/icon/line-icon.png')}}"  class="social-footer-icon" /> @agyhero</td>
                     <td><img src="{{ asset('frontend/assets/img/icon/fb-icon.png')}}" class="social-footer-icon" /> agyhero</td> -->
                     <td><a href="https://www.facebook.com/AgyheroNursingHomeExpert" target="_blank"><img src="{{ asset('frontend/assets/img/icon/fb-icon.png')}}" class="social-footer-icon" /></a></td>
-                    <td><a href="https://www.youtube.com/@AgyHero-ff2uz" target="_blank"><img src="{{ asset('frontend/assets/img/icon/youtube-icon.png')}}" class="social-footer-icon" /></a></td>
+                    <td><a href="https://www.youtube.com/@AgyheroNursingHomeExpert" target="_blank"><img src="{{ asset('frontend/assets/img/icon/youtube-icon.png')}}" class="social-footer-icon" /></a></td>
                     <td><a href="https://www.instagram.com/agyhero/" target="_blank"><img src="{{ asset('frontend/assets/img/icon/ig-icon.png')}}" class="social-footer-icon" /></a></td>
                     <td><a href="https://www.tiktok.com/@agyhero.official?_t=8k0ZxQTsH2X&_r=1" target="_blank"><img src="{{ asset('frontend/assets/img/icon/tiktok-icon.png')}}" class="social-footer-icon" /></a></td>
                 </tr>
