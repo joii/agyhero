@@ -117,21 +117,26 @@ class NewsController extends Controller
 
  public function DeleteNews($id){
 
-    $newss = News::findOrFail($id);
+    $news = News::findOrFail($id);
     $img = $news->news_image;
     $thumb = $news->news_thumbnail;
 
-    unlink($img);
-    unlink($thumb);
+    if(file_exists($img)){
+        unlink($img);
+    }
+    if(file_exists($thumb)){
+        unlink($thumb);
+    }
 
-    Blog::findOrFail($id)->delete();
+
+    News::destroy($id);
 
      $notification = array(
-        'message' => 'News Deleted Successfully', 
+        'message' => 'News Deleted Successfully',
         'alert-type' => 'success'
     );
 
-    return redirect()->back()->with($notification);       
+    return redirect()->back()->with($notification);   
 
  } // End Method 
 
